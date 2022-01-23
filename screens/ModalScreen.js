@@ -159,7 +159,7 @@ const ModalScreen = () => {
       <TouchableOpacity
         disabled={inCompleteForm}
         style={[
-          tw("w-64 p-3 rounded-xl absolute bottom-10"),
+          tw("w-64 p-3 rounded-xl fixed -bottom-36"),
           inCompleteForm ? tw("bg-gray-400") : tw("bg-red-400"),
         ]}
         onPress={updateUserProfile}
